@@ -24,8 +24,4 @@ var numPrimes = prompt("How many primes?");
 
 //Display the finished array of primes
 
-//for loop starting at 2 as that is the lowest prime number keep going until the array is as long as we requested
-for (var i = 2; primeArray.length < numPrimes; i++) {   
-    PrimeCheck(i); //
-}
-console.log(primeArray);
+
